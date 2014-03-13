@@ -1,0 +1,4 @@
+* string
+** cast
+   #include <boost/lexical_cast.hpp>
+   example boost::lexical_cast<std::string>(detail_ptr->version)

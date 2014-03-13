@@ -1,0 +1,24 @@
+* TODO <2014-03-05 Wed> indexserver index query,load,update,unittest
+* online deploy
+10.77.26.29  10.77.26.39 10.77.26.41 10.75.26.29 10.75.26.59 10.75.26.62
+* documents
+** projects
+http://wiki.intra.sina.com.cn/pages/viewpage.action?pageId=16286441
+** operator doc
+http://wiki.intra.sina.com.cn/pages/viewpage.action?pageId=20056237
+安装依赖：
+
+rpm -Uvh http://10.210.208.36/rpms-ad/feed-test/vadecommon-2.0.0-0.x86_64.rpm
+
+安装架构：
+
+rpm -Uvh http://10.210.208.36/rpms-ad/feed-test/idx_framework-5.0.0-10.x86_64.rpm
+
+安装插件：
+
+rpm -Uvh http://10.210.208.36/rpms-ad/feed-test/cpmplugin-5.0.0-0.x86_64.rpm
+
+** 
+
+* FQA
+** what is the pvcode?

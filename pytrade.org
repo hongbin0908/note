@@ -1,0 +1,16 @@
+* mode_trading.py
+
+** feature_builder_list:
+[builder1,builder2,builder2]
+builder's methed:
+*** feature_build
+ return: numy's list
+ nan_to_num
+*** column_stack
+ samples:
+ [[1,2,3],[1,2,4],[0.1,0.2,0.3]]
+ =>
+ 1,1,0.1
+ 2,2,0.2
+ 3,4,0.3
+ 4,4,0.5

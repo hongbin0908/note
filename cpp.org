@@ -2,3 +2,9 @@
 ** cast
    #include <boost/lexical_cast.hpp>
    example boost::lexical_cast<std::string>(detail_ptr->version)
+* date&timestamp
+** get stample 
+#include <time.h>
+int timestamp = time(NULL)
+
+

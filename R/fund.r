@@ -38,3 +38,7 @@
 > mean(x)
 > sd(x)
 
+# »­Í¼
+> hist(precip, breaks = 10,freq=TRUE, main = "")
+> stripchart(precip, method="stack", xlab="rainfall")
+

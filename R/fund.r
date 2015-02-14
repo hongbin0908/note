@@ -52,5 +52,10 @@
 > is.na(x)
 > z <- x[!is.na(x)]
 
+# frame
+> A <- data.frame(v1=x,v2=y)
+> names(A)
+> A$v1
+
 
 

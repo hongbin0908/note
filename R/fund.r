@@ -41,4 +41,16 @@
 # »­Í¼
 > hist(precip, breaks = 10,freq=TRUE, main = "")
 > stripchart(precip, method="stack", xlab="rainfall")
+> Tbl <- table(state.division)
+> Tbl / sum
+> prop.table(Tbl)
+> barplot(table(state.region), cex.names=0.5)
+> library(qcc);pareto.chart(table(state.division), ylab="Frequency")
+> x <- table(state.region); dotchart(as.vector(x), labels = names(x))
+
+# NA
+> is.na(x)
+> z <- x[!is.na(x)]
+
+
 

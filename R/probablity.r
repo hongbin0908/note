@@ -23,3 +23,11 @@
 > union(A,B)
 > intersect(A,B)
 > setdiff(A,B)
+
+#Ìõ¼ş¸ÅÂÊ
+library(prob)
+S <- rolldie(2, makespace = TRUE)
+A <- subset(S, X1==X2)
+B <- subset(S, X1+X2 >= 8)
+prob(A, given = B)
+prob(B, given = A)

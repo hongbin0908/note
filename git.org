@@ -1,4 +1,0 @@
-* FQA
-Q: No refs in common and none specified; doing nothing.
-   Perhaps you should specify a branch such as 'master'.
-A: git push --set-upstream origin master

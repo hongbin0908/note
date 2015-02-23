@@ -1,6 +1,0 @@
-* 2014-03-05
-Today I think that it is go good point to use the trading model to test the stock prices.
-
-./investment_daily_1.png
-Today I bought ARGS in 12.10 and sold thems in 13.07 and earning $179.
-
